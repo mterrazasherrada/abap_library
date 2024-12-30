@@ -1,3 +1,5 @@
+*If you are using string templates(with ALPHA) to add leading zeros, just have a look at the use of the WIDTH keyword.
+*It may be useful where we need to add dynamic number of leading zeros for the same input
 CLASS lcl_add_leading_zeros DEFINITION
     CREATE PUBLIC.
     PUBLIC SECTION.
