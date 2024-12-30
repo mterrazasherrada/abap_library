@@ -1,2 +1,2 @@
-# abap_library
- ABAP Codes
+# ABAP Library
+This repository represents my personal ABAP codes
