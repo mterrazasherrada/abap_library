@@ -279,7 +279,7 @@ CLASS zcl_file_virtual IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 
-Code to get adobe form as Xstring:
+"Code to get Adobe form as Xstring:
 
 CLASS zcl_sb_form DEFINITION
   PUBLIC
