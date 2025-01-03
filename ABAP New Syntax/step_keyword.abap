@@ -1,5 +1,6 @@
 "𝗦𝗧𝗘𝗣 𝗞𝗲𝘆𝘄𝗼𝗿𝗱 𝗶𝗻 𝗔𝗕𝗔𝗣
-"The 𝗦𝗧𝗘𝗣 keyword in ABAP simplifies working with loops when you want to skip odd or even indices. Previously, this was achieved using 𝘀𝘆-𝘁𝗮𝗯𝗶𝘅, but with STEP, you can directly control both the step size and the loop's direction, making the process more straightforward and efficient.
+"The 𝗦𝗧𝗘𝗣 keyword in ABAP simplifies working with loops when you want to skip odd or even indices. 
+"Previously, this was achieved using 𝘀𝘆-𝘁𝗮𝗯𝗶𝘅, but with STEP, you can directly control both the step size and the loop's direction, making the process more straightforward and efficient.
 "Here is a small example,
 
 TYPES: tt_numbers TYPE TABLE OF int8 WITH EMPTY KEY.
