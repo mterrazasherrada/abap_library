@@ -61,3 +61,4 @@ DATA(lv_json_Sales_data) = /ui2/cl_json=>serialize(
 DATA(lv_unknown_json) = `[ { "EmployeeId":"1", "EmployeeName":"Saranya S" },` &&
                         `{ "EmployeeId":"2", "EmployeeName":"Saran S" }]`.
 DATA(lr_emp_data) = /ui2/cl_json=>generate( json = lv_unknown_json ).
+" This can be accessed by lr_emp_data->*
