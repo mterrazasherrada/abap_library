@@ -1,4 +1,4 @@
-* Validates whether a string is a syntactic valid mail address (according to RFC 5322 Standard)
+* Validates whether a string is a valid mail address (according to RFC 5322 Standard)
 CLASS lcl_email DEFINITION.
     PUBLIC SECTION.
       CLASS-METHODS: validate IMPORTING iv_email        TYPE string
