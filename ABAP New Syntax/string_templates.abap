@@ -43,3 +43,5 @@ DATA(lv_align_right) = |{ lv_text ALIGN = RIGHT WIDTH = 5 }|."    1
 
 "PAD
 DATA(lv_pad) = |{ lv_text ALIGN = RIGHT WIDTH = 5 PAD = '_' }|."____1
+
+"https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abapcompute_string_format_options.htm
