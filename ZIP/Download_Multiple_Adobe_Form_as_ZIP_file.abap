@@ -122,9 +122,9 @@ CLASS lcl_sb_zip IMPLEMENTATION.
 
   METHOD build_zip.
     DATA(lo_zip) = NEW cl_abap_zip( ).
-    LOOP AT it_customers_id ASSIGNING FIELD-SYMBOL(<fv_customer_id>).
-      lo_zip->add( name = |{ <fv_customer_id> }.pdf|
-                   content = get_form( <fv_customer_id> ) ).
+    LOOP AT it_customers_id ASSIGNING FIELD-SYMBOL(<customer_id>).
+      lo_zip->add( name = |{ <customer_id> }.pdf|
+                   content = get_form( <customer_id> ) ).
     ENDLOOP.
     rv_zip_file = lo_zip->save( ).
   ENDMETHOD.
